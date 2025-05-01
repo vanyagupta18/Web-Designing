@@ -1,0 +1,90 @@
+<html>
+    <title>Registration Form (Practical 5)</title>
+    <h3>Vanya Gupta(CS24058)</h3>
+    <body style="background-color:greenyellow">
+        <form>
+            <fieldset style="border-color:mediumblue;">
+                <legend style="font-size:xx-large;">Student Registration Form</legend>
+            <label>Student Name:</label>
+            <input type="text" name="last_name" placeholder="Enter First Name">
+            <input type="text" name="last_name" placeholder="Enter Last Name">
+            <br><br>
+            <label>USN:</label>
+            <input type="text" placeholder="Enter College Roll No">
+            <br><br>
+            <label>Date of Birth:</label>
+            <input type="date" name="date_of_birth">
+           <br><br>
+            <label>Email:</label>
+            <input type="email"  placeholder="Enter Email">
+            <br><br>
+            <label>Mobile No:</label>
+            <input type="number" name="mobile_no" placeholder="Enter Mobile No">
+            <br><br>
+            <label >Address:</label><br>
+            <textarea cols="60" rows="4" placeholder="Enter Address" col></textarea>
+            <br><br>
+            
+            <label>City:</label>
+            <select name="City">
+                <option value="Select">Select</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Mumbai">Mumbai</option>
+                 <option value="Nashik">Nashik</option>
+                    <option value="Thane">Thane</option>
+                    <option value="Amravati">Amravati</option>
+                    <option value="Satara">Satara</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Wardha">Wardha</option>
+                    <option value="Chandrapur">Chandrapur</option>
+                    <option value="Yavatmal">Yavatmal</option>
+                    <option value="Gondia">Gondia</option>
+                    <option value="Akola">Akola</option>
+                    <option value="Panvel">Panvel</option>
+                    <option value="Nanded">Nanded</option>
+                    <option value="Ratnagiri">Ratnagiri</option>
+            </select>
+            <br><br>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter Password">
+            <br><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+            <br><br>
+            <label>Department: </label>
+            <input type="checkbox">CSE
+            <input type="checkbox">AI/ML
+            <input type="checkbox">AI/DS
+            <input type="checkbox">ETC
+            <input type="checkbox">Mechanical
+            <input type="checkbox">Electrical
+            <input type="checkbox">MBA
+            <br><br>
+            <label>Student photo:</label>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <form action="upload.php" method="post" enctype="multipart/form-data"></form>
+            <br><br>
+            <label>Programming Languages You Know:</label><br><br>
+            <select id="Programming Languages">
+                <option>Choose</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>Java</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Python</option>
+            </select>
+            <br><br>
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+            
+            
+        </fieldset>
+        </form>
+        
+        
+        
+    </body>
+</html>
