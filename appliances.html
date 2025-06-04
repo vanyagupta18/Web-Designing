@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Appliances</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+    background: #3F5EFB;
+background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+  </style>
+</head>
+<body >
+  <div class="home-appliances-page">
+    <h1 class="section-heading" >Home Appliances</h1>
+    
+  <div class="container py-5">
+<div class="product-container">
+  
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="product-card">
+        <img src="https://images.openai.com/thumbnails/c985210739a06b787d9e5bfbc40fe1ac.webp" class="card-img-top" alt="Refrigerator">
+        <div class="card-body">
+          <h5 class="card-title">Double Door Refrigerator</h5>
+          <p class="card-text text-success fw-bold">₹28,999</p>
+          <button onclick="addToCart('Double Door Refrigerator',28999 , 'https://images.openai.com/thumbnails/c985210739a06b787d9e5bfbc40fe1ac.webp')">Add to Cart</button>
+    </div>
+        </div>
+      </div>
+    
+
+    <!-- Repeat for other products -->
+    <div class="col">
+      <div class="product-card">
+        <img src="https://whirlpoolindia.vtexassets.com/arquivos/ids/164385/Xpert-care-Silver-dimension-O3-6.5kg_1500x1500.jpg?v=638731267672430000" class="card-img-top" alt="Washing Machine">
+        <div class="card-body">
+          <h5 class="card-title">Front Load Washing Machine</h5>
+          <p class="card-text text-success fw-bold">₹21,499</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://mediakbs.s3.ap-south-1.amazonaws.com/products/oven/41bodq50p7l.webp" class="card-img-top" alt="Microwave">
+        <div class="card-body">
+          <h5 class="card-title">Convection Microwave Oven</h5>
+          <p class="card-text text-success fw-bold">₹10,999</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col"><div class="product-card">
+      <img src="https://decure.in/cdn/shop/files/sac_183v_vectra_platina_a.jpg?v=1716794110&width=1445" class="card-img-top" alt="Air Conditioner">
+      <div class="card-body">
+        <h5 class="card-title">1.5 Ton Split AC</h5>
+        <p class="card-text text-success fw-bold">₹35,999</p>
+        <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51mfMLzjA4L._AC_UL375_SR375,375_.jpg" class="card-img-top" alt="Vacuum Cleaner">
+        <div class="card-body">
+          <h5 class="card-title">Robotic Vacuum Cleaner</h5>
+          <p class="card-text text-success fw-bold">₹18,299</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/41ywDswcDPL.jpg" class="card-img-top" alt="Water Purifier">
+        <div class="card-body">
+          <h5 class="card-title">RO Water Purifier</h5>
+          
+          <p class="card-text text-success fw-bold">₹12,799</p>
+          <button onclick="addToCart('RO Water Purifier', 12799, 'https://m.media-amazon.com/images/I/41ywDswcDPL.jpg')">Add to Cart</button>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71FS5XXc8DL._AC_UF350,350_QL80_.jpg" class="card-img-top" alt="Dishwasher">
+        <div class="card-body">
+          <h5 class="card-title">Automatic Dishwasher</h5>
+          
+          <p class="card-text text-success fw-bold">₹27,999</p>
+          <button onclick="addToCart('Automatic Dishwasher', 27999, 'https://m.media-amazon.com/images/I/71FS5XXc8DL._AC_UF350,350_QL80_.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://www.rasoishop.com/cdn/shop/files/8901365419587-8.jpg?v=1690612080" class="card-img-top" alt="Induction Cooktop">
+        <div class="card-body">
+          <h5 class="card-title">Induction Cooktop</h5>
+          <p class="card-text text-success fw-bold">₹2,399</p>
+          <button onclick="addToCart('Induction Cooktop',2399, 'https://www.rasoishop.com/cdn/shop/files/8901365419587-8.jpg?v=1690612080')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://longwayindia.com/cdn/shop/files/LW-Superb-Gray-35L-P1.jpg?v=1746614090" class="card-img-top" alt="Geyser">
+        <div class="card-body">
+          <h5 class="card-title">15L Electric Geyser</h5>
+          <p class="card-text text-success fw-bold">₹5,499</p>
+          <button onclick="addToCart('15L Electric Geyser',5499, 'https://longwayindia.com/cdn/shop/files/LW-Superb-Gray-35L-P1.jpg?v=1746614090')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2023/4/297702154/DL/MZ/NK/66419920/v-guard-matt-brown-ecowind-neo-bldc-motor-ceiling-fan-500x500.jpg" class="card-img-top" alt="Ceiling Fan">
+      <div class="card-body">
+        <h5 class="card-title">High-Speed Ceiling Fan</h5>
+        <p class="card-text text-success fw-bold">₹2,199</p>
+        <button onclick="addToCart('High-Speed Ceiling Fan',2199, 'https://5.imimg.com/data5/SELLER/Default/2023/4/297702154/DL/MZ/NK/66419920/v-guard-matt-brown-ecowind-neo-bldc-motor-ceiling-fan-500x500.jpg')">Add to Cart</button>
+      </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://www.valueplusretail.com/cdn/shop/products/GHRGHAHK0802.jpg?v=1674282867" class="card-img-top" alt="Room Heater">
+        <div class="card-body">
+          <h5 class="card-title">Portable Room Heater</h5>
+          <p class="card-text text-success fw-bold">₹1,899</p>
+          <button onclick="addToCart('Portable Room Heater',1899, 'https://www.valueplusretail.com/cdn/shop/products/GHRGHAHK0802.jpg?v=1674282867')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://rukminim3.flixcart.com/image/850/1000/xif0q/iron/w/a/v/premium-es300l-professional-heavy-duty-steam-iron-box-with-4-ltr-original-imagmxqjy8hggnv7.jpeg?q=90&crop=false" class="card-img-top" alt="Iron">
+        <div class="card-body">
+          <h5 class="card-title">Steam Iron</h5>
+          <p class="card-text text-success fw-bold">₹1,299</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/81p-MlSSh2L._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Blender">
+        <div class="card-body">
+          <h5 class="card-title">Hand Blender</h5>
+          <p class="card-text text-success fw-bold">₹999</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFQmg0bwQUyIoW69GYyfmYJnNRZ3BRddG9-A&s" class="card-img-top" alt="Toaster">
+        <div class="card-body"><h5 class="card-title">2-Slice Toaster</h5>
+          <p class="card-text text-success fw-bold">₹1,599</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71vfrhmJ1SL.jpg" class="card-img-top" alt="Mixer Grinder">
+        <div class="card-body">
+          <h5 class="card-title">3-Jar Mixer Grinder</h5>
+          <p class="card-text text-success fw-bold">₹3,499</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://www.crompton.co.in/cdn/shop/files/pl1_ac9ea67d-d35d-4c1c-9079-44b5056adbfd.png?v=1727429517&width=1445" class="card-img-top" alt="Chimney">
+        <div class="card-body">
+          <h5 class="card-title">Kitchen Chimney</h5>
+          <p class="card-text text-success fw-bold">₹11,299</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://images-cdn.ubuy.co.in/6350fad1476ca1256b24c916-portable-evaporative-air-cooler-outdoor.jpg" class="card-img-top" alt="Air Cooler"><div class="card-body">
+          <h5 class="card-title">Desert Air Cooler</h5>
+          <p class="card-text text-success fw-bold">₹7,299</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1lSevskIkuXHq5qoJeA7jahjU75akX_Q0WkVriHjRfAK7DIK01t42VFqB1ApFmxH76c&usqp=CAU" class="card-img-top" alt="Electric Grill">
+        <div class="card-body">
+          <h5 class="card-title">Electric Grill</h5>
+          
+          <p class="card-text text-success fw-bold">₹2,799</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqaw9ysJYbYN7_sNPA5qP83XqchpbJMsnXA&s" class="card-img-top" alt="Air Fryer">
+        <div class="card-body">
+          <h5 class="card-title">Oil-Free Air Fryer</h5>
+          <p class="card-text text-success fw-bold">₹6,999</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+
+    <div class="col">
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/718X2S-PAiL._AC_UF894,1000_QL80_.jpg" class="card-img-top" alt="Dehumidifier"><div class="card-body">
+          <h5 class="card-title">Smart Dehumidifier</h5>
+          <p class="card-text text-success fw-bold">₹13,499</p>
+          <button onclick="addToCart('Double Door Fridge', 35000, 'images/fridge.jpg')">Add to Cart</button>
+        </div></div></div>
+</div>
+  </div>
+</div>
+  </div>
+  <a class="view-cart-link" href="cart.html">View Cart</a>
+<script src="jsscript.js"></script>
+</body>
+</html>
